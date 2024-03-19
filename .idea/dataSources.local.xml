@@ -14,7 +14,9 @@
             <node kind="database" qname="customer">
               <node kind="schema" negative="1" />
             </node>
-            <node kind="database" qname="valid">
+            <node kind="database">
+              <name qname="notification" />
+              <name qname="valid" />
               <node kind="schema" qname="public" />
             </node>
           </node>
