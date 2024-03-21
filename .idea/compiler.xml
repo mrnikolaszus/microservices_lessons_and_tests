@@ -11,10 +11,13 @@
         <module name="apigw" />
         <module name="clients" />
         <module name="amqp" />
+        <module name="validationcheck" />
         <module name="eureka-server" />
-        <module name="validationCheck" />
         <module name="customer" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="validationCheck" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -7,7 +7,7 @@ spring:
   datasource:
     username: nickz
     password: password
-    url: jdbc:postgresql://localhost:5433/notification
+    url: jdbc:postgresql://localhost:5432/notification
   jpa:
     hibernate:
       ddl-auto: create-drop
